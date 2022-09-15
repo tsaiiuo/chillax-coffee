@@ -76,7 +76,7 @@ export default function Home() {
         </div>
         <img
           className="hidden md:inline-flex h-44 lg:h-full w-50"
-          src="https://i.ibb.co/2PTws5H/chillax-coffee-main-2.jpg"
+          src="https://i.ibb.co/xYXRp2h/hahadog.jpg"
           alt=""
         />
       </div>
