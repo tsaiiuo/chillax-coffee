@@ -7,6 +7,7 @@ export default function Contact() {
     <div className="max-w-7xl mx-auto">
       <Head>
         <title>Chillax Coffee</title>
+
         <link
           rel="icon"
           href="https://scontent.ftpe7-3.fna.fbcdn.net/v/t31.18172-8/1073774_363750393752115_1254075240_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=AKhzmQPL2PYAX8-A_zb&tn=3xhmME0mxLW-eLFb&_nc_ht=scontent.ftpe7-3.fna&oh=00_AT-1Qkj3HzdZX5nlpdQX-J5m2CpkXR1qLm9MuKdfbqmpIQ&oe=62E93292"
@@ -58,9 +59,30 @@ export default function Contact() {
             </span>{" "}
             is a place to chill, read, and connect
           </h1>
-          <h2>нave a good day :D</h2>
+          <h2>
+            <h2>一個悠閒的下午，一場意想不到的體驗</h2>
+            <h2>一杯恰到好處的咖啡，一段有趣幽默的對談</h2>
+            <h2>一個能默默的溫暖你一生，三重區集美街的一個小角落</h2>
+          </h2>
         </div>
       </div>
+      <div className="flex justify-between items-center bg-amber-500 border-y border-black py-10 lg:py-0">
+        <div className="px-10 space-y-5">
+          <h1 className="text-6xl font-serif">
+            <span className="underline decoration-black decoration-4">
+              騎樓咖啡
+            </span>{" "}
+            is a place to relax, chat, and enjoy
+          </h1>
+          <h2>Chillax Coffee wish you нave a good day :D</h2>
+        </div>
+        <img
+          className="hidden md:inline-flex h-44 lg:h-full w-50"
+          src="https://i.ibb.co/2PTws5H/chillax-coffee-main-2.jpg"
+          alt=""
+        />
+      </div>
+
       <Footer></Footer>
     </div>
   );
